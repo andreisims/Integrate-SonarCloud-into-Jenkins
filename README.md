@@ -31,6 +31,22 @@
 <li>scroll down to the pipeline option. in the definition option, select pipeline script from SCM (source code manager). SCM field select Git. for repository url, copy the repo path on github. scroll down to 'Branches to build' and change from */master to */main. in the Script Path field and it should read Jenkinsfile, same as in your repo. select apply + save. now we can run our job. select Build Now</li>
 
 ![Image](https://github.com/user-attachments/assets/fb3e11f9-16d7-4d90-ad09-5522ed26903c)
+<li>select the build# and then console output to see the build details</li>
+
+![Image](https://github.com/user-attachments/assets/d4864804-a55e-4e3a-8bb1-357ca290ebe4)
+
+![Image](https://github.com/user-attachments/assets/3e1eee69-f871-4de6-84f9-8a59f8b3ac36)
+<li>open the results url in a new tab</li>
+
+![Image](https://github.com/user-attachments/assets/6faf28a1-3a67-4242-9b79-b84a166e838f)
+
+![Image](https://github.com/user-attachments/assets/ae70dfb8-7978-4024-b14a-33680dcc5b56)
+<li>scroll down to see the analysis</li>
+
+![Image](https://github.com/user-attachments/assets/7c2782f7-38ce-42cb-8d06-d36eb9a225c5)
+<li>select Main Branch to see the sonarcloud findings</li>
+
+![Image](https://github.com/user-attachments/assets/a42c1cee-4f4f-448b-802d-9e2acd485f35)
 
 
 
