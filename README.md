@@ -1,4 +1,4 @@
-## In this phase, we will build onto the previous "Terraform on AWS" project by integrating SonarCloud to scan a vulnerable application
+## In this phase, we will build onto the previous "Terraform on AWS" project by integrating SonarCloud SAST to scan a vulnerable application
 ### 1. Update the Jenkins file (Jenkinsfile)
 <li>open the repo on github. this contains a vulverable web application</li>
 
@@ -47,6 +47,8 @@
 <li>select Main Branch to see the sonarcloud findings</li>
 
 ![Image](https://github.com/user-attachments/assets/a42c1cee-4f4f-448b-802d-9e2acd485f35)
+# SUCCESS!
+In the next phase, we will integrate SCA (Software Composition Analysis) into our pipeline
 
 
 
